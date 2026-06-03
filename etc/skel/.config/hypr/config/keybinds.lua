@@ -36,11 +36,11 @@ hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize())
 ---- LAUNCHER ----
 ------------------
 
-hl.bind(mainMod .. " + Return",     hl.dsp.exec_cmd(launchPrefix .. terminal))
-hl.bind(mainMod .. " + E",          hl.dsp.exec_cmd(launchPrefix .. fileManager))
-hl.bind(mainMod .. " + T",          hl.dsp.exec_cmd(launchPrefix .. editor))
-hl.bind(mainMod .. " + C",          hl.dsp.exec_cmd(launchPrefix .. calculator))
-hl.bind(mainMod .. " + W",          hl.dsp.exec_cmd(launchPrefix .. browser))
+hl.bind(mainMod .. " + Return",     hl.dsp.exec_cmd(launchPrefix .. TERMINAL))
+hl.bind(mainMod .. " + E",          hl.dsp.exec_cmd(launchPrefix .. FILE_MANAGER))
+hl.bind(mainMod .. " + T",          hl.dsp.exec_cmd(launchPrefix .. EDITOR))
+hl.bind(mainMod .. " + C",          hl.dsp.exec_cmd(launchPrefix .. CALCULATOR))
+hl.bind(mainMod .. " + W",          hl.dsp.exec_cmd(launchPrefix .. BROWSER))
 hl.bind("CONTROL + SHIFT + Escape", hl.dsp.exec_cmd(launchPrefix .. "btop"))
 hl.bind(mainMod .. " + Z",          hl.dsp.exec_cmd(noctCall .. "settings toggle"))
 hl.bind(mainMod .. " + X",          hl.dsp.exec_cmd(noctCall .. "controlCenter toggle"))
