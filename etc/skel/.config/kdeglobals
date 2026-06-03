@@ -1,3 +1,4 @@
 [General]
-ColorScheme=qt6ct
+ColorScheme=Noctalia
+Name=noctalia
 TerminalApplication=kitty
